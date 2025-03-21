@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallavi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo_pallavi.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi... I'm <span>Pallavi Sharma</span>  <br>A passionate Software Engineer</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title"> About Me</h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/dp1-removebg-preview (1).png" alt="">
+                </div>
+                <div class="about-col-2">
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>MEAN/MERN Stack Development</span><br>full Stack Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>MEAN Stack Internship</li>
+                            <li><span>2022-2023</span><br>Trainee Engineer at Key Management Group</li>
+                            <li><span>2021-2022</span><br>BDA at Byju's</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2021</span><br>BTech in Computer Science & Engg.</li>
+                            <li><span>2022-2023</span><br>Diploma in Computer Science & Technology</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p></p>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p></p>
+                </div>
+                <div>
+                    <h2>Web Development</h2>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/weatherAPI.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Technology used : React, HTML,CSS JavaScript , API</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/bmi.png">
+                    <div class="layer">
+                        <h3>BMI App</h3>
+                        <p>Technology used : React, HTML,CSS JavaScript , API</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/CRUD.png">
+                    <div class="layer">
+                        <h3>CRUD App</h3>
+                        <p>Technology used : React, HTML,CSS JavaScript , API</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>Technology used : React, HTML,CSS JavaScript , API</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ecomm.png">
+                    <div class="layer">
+                        <h3>Ecomm App</h3>
+                        <p>Technology used : React, HTML,CSS JavaScript , API</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/frontend-edTech.png">
+                    <div class="layer">
+                        <h3>EdTech App</h3>
+                        <p>Technology used : React, HTML,CSS JavaScript , API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/weatherAPI.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Technology used : React, HTML, CSS, JavaScript, API</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/bmi.png">
+                    <div class="layer">
+                        <h3>BMI App</h3>
+                        <p>Technology used : React, HTML, CSS, JavaScript, API</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/CRUD.png">
+                    <div class="layer">
+                        <h3>CRUD App</h3>
+                        <p>Technology used : React, HTML, CSS, JavaScript, API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>Technology used : React, JavaScript, HTML, CSS, Bootstrap,</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ecomm.png">
+                    <div class="layer">
+                        <h3>Ecomm App</h3>
+                        <p>Technology used : Angular, JavaScript, HTML, CSS, Bootstrap, JWT</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/frontend-edTech.png">
+                    <div class="layer">
+                        <h3>EdTech Website</h3>
+                        <p>Technology used : HTML,JavaScript, CSS, Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa fa-envelope" ></i>&nbsp;&nbsp;sharmapallavi990@gmail.com</p>
+            <p><i class="fa fa-phone"></i>&nbsp;&nbsp;  8240732375</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pallavi-sharma-30521a1a5/"><i class="fa fa-linkedin"><br> <br></i></a>
+                <a href="https://github.com/pallavishr"><i class="fa fa-github"><br> <br></i></a>
+                <a href=""></a>
+            </div>
+                <button id="downloadButton" class="squishy squishy-tech">Download Resume</button>
+              </a>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Pallavi Sharma <i class="fa fa-heart"></i></p>
+        </div>
+    </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    
+    document.getElementById("downloadButton").onclick = function() {
+      
+      const a = document.createElement('a');
+      a.href = 'Images/PallaviSharma_Resume.pdf';  
+      a.download = 'PallaviSharma_Resume.pdf';
+      a.click();
+    };
+  </script>
+
+</body>
+</html>
